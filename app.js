@@ -72,3 +72,30 @@ function mathOperators(num1, num2) {
 }
 mathOperators(10, 5); /* called the mathOperators function with the arguments 10 and 5 which will output the 
 results of the four basic math operations (addition, subtraction, multiplication, and division) to the console. */
+
+const mathOperations = (a, b) => {
+    const add = a + b;
+    const subtract = a - b;
+    const multiply = a * b;
+    const divide = a / b;
+    return `Addition: ${add}, Subtraction: ${subtract}, Multiplication: ${multiply}, Division: ${divide}`;
+}
+console.log(mathOperations(5, 10));
+
+const expressionMathOperations = function (a, b) {
+    const add = a + b;
+    const subtract = a - b;
+    const multiply = a * b;
+    const divide = a / b;
+    return `Addition: ${add}, Subtraction: ${subtract}, Multiplication: ${multiply}, Division: ${divide}`;
+};
+console.log(expressionMathOperations(5, 10));
+
+function mathOperationsFunction(a, b) {
+    const add = a + b;
+    const subtract = a - b;
+    const multiply = a * b;
+    const divide = a / b;
+    return `Addition: ${add}, Subtraction: ${subtract}, Multiplication: ${multiply}, Division: ${divide}`;
+};
+console.log(mathOperationsFunction(5, 10));
