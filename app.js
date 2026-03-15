@@ -62,3 +62,13 @@ concise way to write functions in JavaScript. The function takes two parameters,
 
 console.log(sumOfTwoNumbes(1, 3)); /* logged the result of calling the sumOfTwoNumbes function with the arguments 1 and 3, 
 which will output 4 to the console. */
+
+// math operators
+function mathOperators(num1, num2) {
+    console.log("Addition Outcome =", num1 + num2);
+    console.log("Subtraction Outcome =", num1 - num2);
+    console.log("Multiplication Outcome =", num1 * num2);
+    console.log("Division Outcome =", num1 / num2);
+}
+mathOperators(10, 5); /* called the mathOperators function with the arguments 10 and 5 which will output the 
+results of the four basic math operations (addition, subtraction, multiplication, and division) to the console. */
