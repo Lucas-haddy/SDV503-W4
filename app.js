@@ -99,3 +99,15 @@ function mathOperationsFunction(a, b) {
     return `Addition: ${add}, Subtraction: ${subtract}, Multiplication: ${multiply}, Division: ${divide}`;
 };
 console.log(mathOperationsFunction(5, 10));
+
+// Pseudocode translation practice.
+let score = 90
+if (score >= 90) {
+    console.log("A");
+} else if (score >= 75) {
+    console.log("B");
+} else if (score >= 60) {
+    console.log("C");
+} else {
+    console.log("F");
+}
