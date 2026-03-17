@@ -101,7 +101,8 @@ function mathOperationsFunction(a, b) {
 console.log(mathOperationsFunction(5, 10));
 
 // Pseudocode translation practice.
-let score = 90
+let score = 90;
+
 if (score >= 90) {
     console.log("A");
 } else if (score >= 75) {
